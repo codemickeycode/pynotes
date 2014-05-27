@@ -1,15 +1,26 @@
+Install pip
+===========
+```
+$ sudo easy_install pip
+```
+
 Install Virtualenv and Virtualenvwrapper
 =========
 ```
-pip install virtualenv
-pip install virtualenvwrapper
+$ sudo pip install virtualenv
+$ sudo pip install virtualenvwrapper
 ```
 
-Configure Environment Variables
+Configure Environment Variables and Reload bashrc
 =========
 ```
-export WORKON_HOME=$HOME/.virtualenvs
-source /usr/local/bin/virtualenvwrapper.sh
+$ echo "WORKON_HOME=~/.envs"
+WORKON_HOME=~/.envs
+$ echo "WORKON_HOME=~/.envs" >> ~/.bashrc
+$ echo "PROJECT_HOME=~/Projects" >> ~/.bashrc
+$ echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.bashrc
+
+$ source ~/.bashrc
 ```
 
 Create Virtualenv
