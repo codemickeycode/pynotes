@@ -28,3 +28,8 @@ Create Virtualenv
 ```
 mkvirtualenv -a ~/Projects/<project name> --no-site-packages <project name>
 ```
+
+OR
+```
+mkvirtualenv -p /usr/bin/python3 -a ~/Projects/tdd-django --no-site-packages tdd-django
+```
