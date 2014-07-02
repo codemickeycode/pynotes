@@ -29,7 +29,7 @@ Create Virtualenv
 mkvirtualenv -a ~/Projects/<project name> --no-site-packages <project name>
 ```
 
-OR
+OR specify python version
 ```
-mkvirtualenv -p /usr/bin/python3 -a ~/Projects/tdd-django --no-site-packages tdd-django
+mkvirtualenv -p /usr/bin/python3 -a ~/Projects/<project name> --no-site-packages <project name>
 ```
