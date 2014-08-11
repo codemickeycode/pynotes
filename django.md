@@ -1,5 +1,6 @@
 Useful django commands
 ===========
+## Creating the models
 ```
 $ ./manage.py syncdb
 $ ./manage.py makemigrations
@@ -10,12 +11,13 @@ shortcut
 $ ./manage.py syncdb --migrate
 ```
 
+## Start an app and project
 ```
 $ ./django-admin.py startup
 $ ./django-admin.py startproject
 ```
 
-Run the dev server
+## Run the dev server
 ```
 $ ./manage.py runserver
 ```
