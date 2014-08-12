@@ -1,14 +1,10 @@
-Useful django commands
+Useful django 1.7 commands
 ===========
 ## Creating the models
 ```
 $ ./manage.py syncdb
 $ ./manage.py makemigrations
 $ ./manage.py migrate
-```
-shortcut
-```
-$ ./manage.py syncdb --migrate
 ```
 
 ## Start an app and project
