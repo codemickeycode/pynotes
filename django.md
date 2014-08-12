@@ -13,8 +13,10 @@ $ ./manage.py syncdb --migrate
 
 ## Start an app and project
 ```
-$ ./django-admin.py startup
-$ ./django-admin.py startproject
+$ django-admin.py startproject <project name>
+
+$ cd <project dir>
+$ django-admin.py startapp <app name>
 ```
 
 ## Run the dev server
