@@ -15,7 +15,6 @@ Configure Environment Variables and Reload bashrc
 =========
 ```
 $ echo "WORKON_HOME=~/.envs" >> ~/.bashrc
-$ echo "WORKON_HOME=~/.envs" >> ~/.bashrc
 $ echo "PROJECT_HOME=~/Projects" >> ~/.bashrc
 $ echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.bashrc
 
