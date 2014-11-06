@@ -26,4 +26,6 @@ $ python manage.py collectstatic
 ```
 
 ## Create Django Admin Superuser
+```
 $ python manage.py createsuperuser --username=<username> --email=<you@example.com>
+```
