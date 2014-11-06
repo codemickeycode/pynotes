@@ -19,3 +19,11 @@ $ django-admin.py startapp <app name>
 ```
 $ ./manage.py runserver
 ```
+
+## Collect static files
+```
+$ python manage.py collectstatic
+```
+
+## Create Django Admin Superuser
+$ python manage.py createsuperuser --username=<username> --email=<you@example.com>
