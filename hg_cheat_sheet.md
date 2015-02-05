@@ -33,7 +33,7 @@ hg update <branch name>
 hg push --new-branch
 ```
 
-## HG Shelve
+## HG Shelve (similar to git stash)
 ```
 hg shelve
 ```
