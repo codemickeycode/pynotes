@@ -40,7 +40,7 @@ Connect to a database
 postgres-# \c <database name>
 ```
 
-list database tables
+List database tables
 ```
 <database name>-# \dt
 ```
