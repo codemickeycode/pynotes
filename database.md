@@ -42,5 +42,5 @@ postgres-# \c <database name>
 
 list database tables
 ```
-producthuntdb-# \dt
+<database name>-# \dt
 ```
