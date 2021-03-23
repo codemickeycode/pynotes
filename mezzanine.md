@@ -1,5 +1,7 @@
 # Install from PyPI
+```
 $ pip install mezzanine==4.0.1
+```
 
 # Create a project
 ```
@@ -20,6 +22,8 @@ $ python manage.py runserver
 ```
 $ python manage.py collecttemplates
 ```
+
+## References
 https://github.com/stephenmcd/mezzanine/issues/1512
 
 https://www.pythonanywhere.com/forums/topic/1195/
