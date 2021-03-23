@@ -24,8 +24,7 @@ $ python manage.py collecttemplates
 ```
 
 ## References
-https://github.com/stephenmcd/mezzanine/issues/1512
-
-https://www.pythonanywhere.com/forums/topic/1195/
+- https://github.com/stephenmcd/mezzanine/issues/1512
+- https://www.pythonanywhere.com/forums/topic/1195/
 
 TEMPLATE_DIRS = [TEMPLATES[0]['DIRS'][0]]
